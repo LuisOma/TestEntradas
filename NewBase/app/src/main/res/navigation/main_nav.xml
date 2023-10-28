@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/postsFragment">
+
+    <fragment
+        android:id="@+id/postsFragment"
+        android:name="com.example.newbase.ui.main.posts.PostsFragment"
+        android:label="PostFragment" >
+        <action
+            android:id="@+id/action_pokeFragment_to_pokeDetailFragment"
+            app:destination="@id/postDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/postDetailFragment"
+        android:name="com.example.newbase.ui.main.posts.PostDetailFragment"
+        android:label="PostDetailFragment" />
+</navigation>

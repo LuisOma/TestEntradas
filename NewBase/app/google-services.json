@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779771767362",
+    "project_id": "testfirestore-3280a",
+    "storage_bucket": "testfirestore-3280a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779771767362:android:6cd24c8e78a9936fb11bdb",
+        "android_client_info": {
+          "package_name": "com.example.newbase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtpVzeZgGF7DnUs_Z2qZ0WiTHc3ehsI5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
